@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 function Hero() {
   return (
-    <div className='w-full px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 flex flex-col min-[671px]:flex-row gap-9'>
+    <div className='w-full px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 mt-16 flex flex-col min-[671px]:flex-row gap-9'>
         {/* Hero Details */}
         <div className='w-full flex flex-col justify-center gap-3'>  
             {/* Frontend Developer */}
