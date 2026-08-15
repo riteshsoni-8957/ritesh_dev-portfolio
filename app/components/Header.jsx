@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React, { useState } from 'react'
 import { IoClose } from 'react-icons/io5';
 import { RiMenu3Fill } from 'react-icons/ri';
@@ -8,8 +9,8 @@ function Header() {
     const [showNav, setShowNav] = useState(false);
 
     return (
-        <div className='flex items-center justify-between relative px-4 min-[371px]:px-8 py-3 border-b-2 border-gray-700 '>
-            <div className='text-[23px] min-[841px]:text-[21px] xl:text-[25px] min-[841px]:text-[22px] font-bold font-mono tracking-[3px]'>
+        <div className='flex items-center justify-between relative px-4 min-[371px]:px-8 xl:px-12 py-3 border-b-2 border-gray-700 '>
+            <div className='text-[23px] min-[841px]:text-[21px] xl:text-[25px] font-bold font-mono tracking-[3px]'>
                 RITESH 
                 <span className='text-cyan-300'>_DEV</span>
             </div>
@@ -29,12 +30,16 @@ function Header() {
                 </ul>
 
                 <div className='flex flex-col items-center gap-4'>
-                    <h3 className='text-[16px] min-[841px]:text-[14px] lg:text-[16px] font-mono text-cyan-300 hover:text-cyan-50 hover:font-bold hover:text-[18px] hover:bg-cyan-600 border-2 border-cyan-300 rounded-2xl px-4 py-1'>Hire Me</h3>
+                    <Link href="mailto:riteshsoni35468@gmail.com">
+                        <h3 className='text-[16px] min-[841px]:text-[14px] lg:text-[16px] font-mono text-cyan-300 hover:text-cyan-50 hover:font-bold hover:text-[18px] hover:bg-cyan-600 border-2 border-cyan-300 rounded-2xl px-4 py-1'>
+                            Hire Me
+                        </h3>
+                    </Link>
                 </div>
                 
             </div>
 
-            <div className='min-[841px]:hidden text-2xl text-white hover:text-cyan-300 cursor-pointer' onClick={() => setShowNav(!showNav)}>
+            <div className='min-[841px]:hidden text-2xl hover:text-cyan-300 cursor-pointer' onClick={() => setShowNav(!showNav)}>
                 <RiMenu3Fill size={30} className='hover:scale-[1.2]' />
             </div>
         </div>
