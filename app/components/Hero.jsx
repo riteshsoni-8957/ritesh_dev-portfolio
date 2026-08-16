@@ -14,8 +14,8 @@ function Hero() {
 
             {/* Building Modern ..... */}
             <h1 className='leading-none text-[26px] min-[471px]:text-[30px] min-[671px]:text-[26px] min-[871px]:text-[30px] lg:text-[35px] xl:text-[40px] font-semibold'>
-                Building <br /> 
-                <span className='text-cyan-300'>Modern </span> 
+                Building Modern <br /> 
+                <span className='text-cyan-300'>Digital </span> 
                 <span className='text-fuchsia-400'>Experiences</span>
             </h1>
 
