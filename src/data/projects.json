@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Ritesh Portfolio",
+    "description": "A modern and responsive developer portfolio built to showcase my skills, projects, experience and services.",
+    "category": "Web App",
+    "image": "/projects/ritesh-dev-portfolio.png",
+    "technologies": ["Next.js", "React", "Tailwind CSS", "JavaScript"],
+    "github": "https://github.com/riteshsoni-8957/ritesh_dev-portfolio",
+    "live": "https://ritesh-dev-portfolio-seven.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "Deepak Cloth House",
+    "description": "A responsive clothing store website designed to showcase products with a clean and user-friendly shopping experience.",
+    "category": "Web App",
+    "image": "/projects/deepak-cloth-house.png",
+    "technologies": ["React.js", "JavaScript", "Tailwind CSS", "Vite"],
+    "github": "https://github.com/riteshsoni-8957/deepakClothHouse",
+    "live": "https://deepak-cloth-house.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "Contact Management App",
+    "description": "A contact management application with authentication and CRUD functionality for managing user contacts.",
+    "category": "Web App",
+    "image": "/projects/contact-management-app.png",
+    "technologies": ["Next.js", "React", "JavaScript", "JSON Server"],
+    "github": "https://github.com/riteshsoni-8957/contact-management-app",
+    "live": "https://contact-management-app-swart.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "World Atlas",
+    "description": "An interactive world atlas application that allows users to explore countries and view detailed country information.",
+    "category": "Web App",
+    "image": "/projects/world-atlas.png",
+    "technologies": ["React.js", "JavaScript", "REST API", "CSS"],
+    "github": "https://github.com/riteshsoni-8957/world-atlas-web",
+    "live": "https://riteshsoni-8957.github.io/world-atlas-web/"
+  },
+  {
+    "id": 5,
+    "title": "Next.js Web App",
+    "description": "A full-stack Next.js application featuring modern routing, server actions, authentication and contact management functionality.",
+    "category": "Web App",
+    "image": "/projects/web-app.png",
+    "technologies": ["Next.js", "React", "Tailwind CSS", "JavaScript"],
+    "github": "https://github.com/riteshsoni-8957/nextjs-web-app",
+    "live": "https://nextjs-web-app-alpha.vercel.app/"
+  },
+  {
+    "id": 6,
+    "title": "Flipkart Ecommerce Dashboard",
+    "description": "An interactive Power BI dashboard created from ecommerce sales data to analyze sales, products, customers and business performance.",
+    "category": "Dashboard",
+    "image": "/projects/flipkart-sales-dashboard.png",
+    "technologies": ["Power BI", "Excel", "Data Cleaning", "Data Analytics"],
+    "github": "",
+    "live": ""
+  },
+  {
+    "id": 7,
+    "title": "Pizza Sales Dashboard",
+    "description": "A data analytics dashboard designed to analyze pizza sales, revenue, orders, product performance and customer purchasing patterns.",
+    "category": "Dashboard",
+    "image": "/projects/pizza-sales-dashboard.png",
+    "technologies": ["Power BI", "Excel", "SQL", "Data Analytics"],
+    "github": "",
+    "live": ""
+  }
+]

@@ -26,13 +26,13 @@ function Hero() {
 
             {/* Buttons */}
             <div className='flex gap-4'>
-                <Link href="">
+                <Link href="#projects">
                     <p className='text-[13px] min-[871px]:text-[15px] lg:text-[18px] xl:text-[21px] border border-cyan-100 rounded-[5px] px-4 py-1 bg-gradient-to-r from-purple-600 to-fuchsia-500 hover:bg-gradient-to-r hover:from-purple-700 hover:to-fuchsia-600'>
                         Explore Work
                     </p>
                 </Link>
 
-                <Link href="/Ritesh_Soni_Resume.pdf" target="_blank" download>
+                <Link href="/Ritesh_Soni_Resume.pdf" target="_blank" >
                     <p className='text-[13px] min-[871px]:text-[15px] lg:text-[18px] xl:text-[21px] border border-cyan-100 rounded-[5px] px-4 py-1 hover:bg-gray-700 flex gap-2 items-center'>
                         Download CV
                         <FaDownload />
@@ -63,7 +63,7 @@ function Hero() {
             <div className="flex justify-between border rounded-[10px] px-2.5 xl:px-5 py-1.5 bg-gray-300/5">
                 <div className="flex flex-col font-mono">
                     <span className="text-[14px] min-[471px]:text-[17px] min-[671px]:text-[14px] min-[871px]:text-[17px] lg:text-[20px] xl:text-[24px] text-cyan-500 font-semibold">2+</span>
-                    <span className="text-[7px] min-[471px]:text-[10px] min-[671px]:text-[7px] min-[871px]:text-[10px] lg:text-[13px] xl:text-[16px] text-cyan-500 font-semibold">Year Experience</span>
+                    <span className="text-[7px] min-[471px]:text-[10px] min-[671px]:text-[7px] min-[871px]:text-[10px] lg:text-[13px] xl:text-[16px] text-cyan-500 font-semibold">Years Experience</span>
                 </div>
 
                 <div className="flex flex-col font-mono">

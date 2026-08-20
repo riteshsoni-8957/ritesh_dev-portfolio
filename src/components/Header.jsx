@@ -9,7 +9,7 @@ function Header() {
     const [showNav, setShowNav] = useState(false);
 
     return (
-        <div className='fixed top-3 right-4 left-4 lg:right-8 lg:left-8 xl:right-12 xl:left-12 rounded-full flex items-center justify-between px-4 min-[371px]:px-8 min-[841px]:px-4 lg:px-8 py-3 border border-gray-700 bg-[#00020f] shadow-[0_0_15px_rgba(34,211,238,0.15)]'>
+        <div className='z-3000 fixed top-3 right-4 left-4 lg:right-8 lg:left-8 xl:right-12 xl:left-12 rounded-full flex items-center justify-between px-4 min-[371px]:px-8 min-[841px]:px-4 lg:px-8 py-3 border border-gray-700 bg-[#00020f] shadow-[0_0_15px_rgba(34,211,238,0.15)]'>
             <div className='text-[23px] min-[841px]:text-[21px] xl:text-[25px] font-bold font-mono tracking-[3px]'>
                 RITESH 
                 <span className='text-cyan-300'>_DEV</span>
