@@ -15,7 +15,7 @@ function Header() {
                 <span className='text-cyan-300'>_DEV</span>
             </div>
 
-            <div className={`${showNav ? 'translate-x-0' : 'translate-x-full'} flex z-2000 transform duration-300 min-[841px]:flex fixed min-[841px]:static top-0 right-0 bottom-0 h-screen min-[841px]:h-auto w-[250px] min-[841px]:w-auto bg-[#111a34] min-[841px]:bg-transparent flex-col min-[841px]:flex-row justify-center gap-8 min-[841px]:gap-4 lg:gap-8 xl:gap-11 shadow-xl `}>
+            <div className={`${showNav ? 'max-[841px]:translate-x-0' : 'max-[841px]:translate-x-full'} flex z-2000 transform duration-300 min-[841px]:flex fixed min-[841px]:static top-0 right-0 bottom-0 h-screen min-[841px]:h-auto w-[250px] min-[841px]:w-auto bg-[#111a34] min-[841px]:bg-transparent flex-col min-[841px]:flex-row justify-center gap-8 min-[841px]:gap-4 lg:gap-8 xl:gap-11 shadow-xl `}>
                 <div className='min-[841px]:hidden text-2xl text-white hover:text-cyan-300 cursor-pointer absolute top-4 right-4' onClick={() => setShowNav(!showNav)}>
                     <IoClose size={30} className='hover:scale-[1.3]' />
                 </div>
