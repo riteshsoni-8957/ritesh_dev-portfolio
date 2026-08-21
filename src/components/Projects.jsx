@@ -22,7 +22,7 @@ function Projects() {
             </div>
         </div>
 
-        <div className='w-full px-4 min-[471px]:px-8 min-[571px]:px-12 min-[671px]:px-0 py-10 grid grid-cols-1 min-[671px]:grid-cols-2 lg:grid-cols-3 gap-9 xl:gap-11'>
+        <div className='w-full px-4 min-[471px]:px-8 min-[571px]:px-12 min-[671px]:px-0 py-0 lg:py-5 grid grid-cols-1 min-[671px]:grid-cols-2 lg:grid-cols-3 gap-9 xl:gap-11'>
             {
                 projectsData.map((project) => {
                     return (
