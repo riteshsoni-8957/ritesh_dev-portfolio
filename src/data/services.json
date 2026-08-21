@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Development",
+    "description": "Responsive and interactive websites built with React, Next.js and modern frontend technologies.",
+    "icon": "FaCode"
+  },
+  {
+    "id": 2,
+    "title": "Dashboard Creation",
+    "description": "Interactive and visually engaging dashboards built with Power BI to track KPIs and simplify business insights.",
+    "icon": "FaChartLine"
+  },
+  {
+    "id": 3,
+    "title": "Data Analysis",
+    "description": "Data cleaning, exploration and analysis using Excel, SQL, Power BI and Python to discover meaningful insights.",
+    "icon": "FaDatabase"
+  }
+]

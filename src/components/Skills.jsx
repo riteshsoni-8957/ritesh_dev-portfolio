@@ -7,7 +7,7 @@ const technologies = [
     {name: "JavaScript", level: 85},
     {name: "React.js", level: 80},
     {name: "Next.js", level: 85},
-    {name: "Taileind css", level: 90}
+    {name: "Tailwind css", level: 90}
 ]
 
 // tools and development skills data
