@@ -28,7 +28,7 @@ const analytics = [
 
 function Skills() {
   return (
-    <div id='skills' className='w-full px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 grid grid-cols-1 min-[671px]:grid-cols-2 gap-9 lg:gap-16 xl:gap-22 scroll-mt-8'>
+    <div id='skills' className='w-full px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 grid grid-cols-1 min-[671px]:grid-cols-2 gap-9 lg:gap-16 xl:gap-22 scroll-mt-12'>
         <div className='min-[671px]:row-span-2 flex flex-col min-[671px]:justify-center'>
             <h3 className='text-[12px] min-[471px]:text-[15px] min-[671px]:text-[12px] min-[871px]:text-[15px] lg:text-[18px] xl:text-[21px] font-mono tracking-[1px] text-cyan-300'>
                 MY SKILLS

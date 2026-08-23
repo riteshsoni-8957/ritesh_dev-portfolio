@@ -4,7 +4,7 @@ import {FaCode, FaChartLine, FaDatabase} from "react-icons/fa";
 
 function Services() {
   return (
-    <div id='services' className='w-full flex flex-col px-4 min-[371px]:px-8 xl:px-12 py-5 min-[671px]:py-10 scroll-mt-8'>
+    <div id='services' className='w-full flex flex-col px-4 min-[371px]:px-8 xl:px-12 py-5 min-[671px]:py-10 scroll-mt-12'>
       <h3 className='text-[12px] min-[471px]:text-[15px] min-[671px]:text-[12px] min-[871px]:text-[15px] lg:text-[18px] xl:text-[21px] font-mono tracking-[1px] text-cyan-300'>
         WHAT I OFFER
       </h3>

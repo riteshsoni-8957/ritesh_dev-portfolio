@@ -5,7 +5,7 @@ import { MdEmail, MdEventAvailable } from 'react-icons/md'
 
 function Contact() {
   return (
-    <div id='contact' className='grid grid-cols-1 min-[671px]:grid-cols-2 lg:grid-cols-3 w-full px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 gap-9 xl:gap-16 2xl:gap-22'>
+    <div id='contact' className='grid grid-cols-1 min-[671px]:grid-cols-2 lg:grid-cols-3 w-full px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 gap-9 xl:gap-16 2xl:gap-22 scroll-mt-12'>
         <div className='flex flex-col gap-3 justify-center'>
             <h3 className='text-[12px] min-[471px]:text-[15px] min-[671px]:text-[12px] min-[871px]:text-[15px] lg:text-[18px] xl:text-[21px] font-mono tracking-[1px] text-cyan-300'>
                 GET IN TOUCH

@@ -3,7 +3,7 @@ import projectsData from '../data/projects.json'
 
 function Projects() {
   return (
-    <div id='projects' className='w-full flex flex-col px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 gap-9 xl:gap-11 scroll-mt-8'>
+    <div id='projects' className='w-full flex flex-col px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 gap-9 xl:gap-11 scroll-mt-12'>
         <div className='w-full flex flex-col min-[671px]:flex-row gap-4 min-[671px]:gap-15 min-[771px]:gap-35 lg:gap-60 xl:gap-80 2xl:gap-100'>
             <div className=''>
                 <h3 className='text-[12px] min-[471px]:text-[15px] min-[671px]:text-[12px] min-[871px]:text-[15px] lg:text-[18px] xl:text-[21px] font-mono tracking-[1px] text-cyan-300'>

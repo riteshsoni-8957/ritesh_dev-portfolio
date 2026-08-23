@@ -1,7 +1,7 @@
 
 function About() {
   return (
-    <div id="about" className='w-full px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 grid grid-cols-1 min-[671px]:grid-cols-2 xl:grid-cols-3 gap-9 xl:gap-11 scroll-mt-8'>
+    <div id="about" className='w-full px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 grid grid-cols-1 min-[671px]:grid-cols-2 xl:grid-cols-3 gap-9 xl:gap-11 scroll-mt-12'>
         <div className='min-[671px]:order-3 xl:order-2 min-[671px]:col-span-2 xl:col-span-1'>
             <h3 className="text-[15px] min-[571px]:text-[20px] xl:text-[15px] min-[1380px]:text-[18px] font-mono text-cyan-300 mb-1">
                 ABOUT ME
