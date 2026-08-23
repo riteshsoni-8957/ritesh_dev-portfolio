@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       lang="en"
     >
       <body className="min-h-screen flex flex-col bg-[#00020f] text-gray-200">
-        {/* <Loader /> */}
+        <Loader />
         {children}
       </body>
     </html>
