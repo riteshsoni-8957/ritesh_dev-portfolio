@@ -6,10 +6,10 @@ function Projects() {
     <div id='projects' className='w-full flex flex-col px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 gap-9 xl:gap-11 scroll-mt-8'>
         <div className='w-full flex flex-col min-[671px]:flex-row gap-4 min-[671px]:gap-15 min-[771px]:gap-35 lg:gap-60 xl:gap-80 2xl:gap-100'>
             <div className=''>
-                <h3 className='text-[13px] min-[471px]:text-[18px] min-[571px]:text-[24px] min-[671px]:text-[18px] min-[871px]:text-[24px] lg:text-[26px] xl:text-[28px] font-mono '>
+                <h3 className='text-[12px] min-[471px]:text-[15px] min-[671px]:text-[12px] min-[871px]:text-[15px] lg:text-[18px] xl:text-[21px] font-mono tracking-[1px] text-cyan-300'>
                     MY WORK
                 </h3>
-                <h1 className='text-[22px] min-[471px]:text-[28px] min-[571px]:text-[34px] min-[671px]:text-[28px] min-[871px]:text-[30px] lg:text-[32px] xl:text-[34px] 2xl:text-[38px]'>
+                <h1 className='text-[22px] min-[471px]:text-[28px] min-[571px]:text-[34px] min-[671px]:text-[28px] min-[871px]:text-[30px] lg:text-[32px] xl:text-[34px] 2xl:text-[38px] font-semibold'>
                     Features 
                     <span className='text-cyan-300'> Projects</span>
                 </h1>

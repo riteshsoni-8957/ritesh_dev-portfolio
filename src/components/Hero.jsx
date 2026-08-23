@@ -8,9 +8,9 @@ function Hero() {
         {/* Hero Details */}
         <div className='w-full flex flex-col justify-center gap-3'>  
             {/* Frontend Developer */}
-            <p className='text-[12px] min-[471px]:text-[15px] min-[671px]:text-[12px] min-[871px]:text-[15px] lg:text-[18px] xl:text-[21px] font-mono tracking-[1px] text-cyan-300'>
+            <h3 className='text-[12px] min-[471px]:text-[15px] min-[671px]:text-[12px] min-[871px]:text-[15px] lg:text-[18px] xl:text-[21px] font-mono tracking-[1px] text-cyan-300'>
                 FRONTEND DEVELOPER
-            </p>
+            </h3>
 
             {/* Building Modern ..... */}
             <h1 className='leading-none text-[26px] min-[471px]:text-[30px] min-[671px]:text-[26px] min-[871px]:text-[30px] lg:text-[35px] xl:text-[40px] font-semibold'>

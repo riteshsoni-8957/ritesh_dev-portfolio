@@ -30,10 +30,10 @@ function Skills() {
   return (
     <div id='skills' className='w-full px-4 min-[371px]:px-8 xl:px-12 py-10 min-[671px]:py-20 xl:py-13 grid grid-cols-1 min-[671px]:grid-cols-2 gap-9 lg:gap-16 xl:gap-22 scroll-mt-8'>
         <div className='min-[671px]:row-span-2 flex flex-col min-[671px]:justify-center'>
-            <h3 className='text-[13px] min-[371px]:text-[17px] min-[571px]:text-[20px] min-[671px]:text-[15px] min-[871px]:text-[18px] lg:text-[20px] xl:text-[24px] 2xl:text-[28px] font-mono text-cyan-300 mb-1'>
+            <h3 className='text-[12px] min-[471px]:text-[15px] min-[671px]:text-[12px] min-[871px]:text-[15px] lg:text-[18px] xl:text-[21px] font-mono tracking-[1px] text-cyan-300'>
                 MY SKILLS
             </h3>
-            <h1 className='text-[18px] min-[371px]:text-[22px] min-[471px]:text-[26px] min-[571px]:text-[30px] min-[671px]:text-[20px] min-[871px]:text-[23px] lg:text-[26px] xl:text-[30px] 2xl:text-[34px] font-semibold mb-1'>
+            <h1 className='text-[20px] min-[471px]:text-[24px] min-[671px]:text-[20px] min-[871px]:text-[24px] lg:text-[28px] xl:text-[34px] font-semibold'>
                 Technologies  
                 <span className='text-fuchsia-400'> I Work With</span>
             </h1>
