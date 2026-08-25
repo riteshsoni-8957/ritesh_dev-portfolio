@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { FaDownload, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaDownload, FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 function Hero() {
@@ -42,15 +42,19 @@ function Hero() {
 
             {/* Social icons */}
             <div className="flex gap-4 mt-2">
-                <Link href="https://github.com/riteshsoni-8957" target="_blank" className="text-[13px] border border-cyan-300 rounded-full p-2 hover:bg-fuchsia-400 hover:text-black hover:scale-[1.2]">
+                <Link href="https://github.com/riteshsoni-8957" target="_blank" className="text-[18px] border border-cyan-300 rounded-full p-2 hover:bg-fuchsia-400 hover:text-black hover:scale-[1.2]">
                     <FaGithub />
                 </Link>
 
-                <Link href="https://www.linkedin.com/in/ritesh-soni-4939a0270/" target="_blank" className="text-[13px] border border-cyan-300 rounded-full p-2 hover:bg-fuchsia-400 hover:text-black hover:scale-[1.2]">
+                <Link href="https://www.linkedin.com/in/ritesh-soni-4939a0270/" target="_blank" className="text-[18px] border border-cyan-300 rounded-full p-2 hover:bg-fuchsia-400 hover:text-black hover:scale-[1.2]">
                     <FaLinkedinIn />
                 </Link>
 
-                <Link href="mailto:riteshsoni35468@gmail.com" className="text-[13px] border border-cyan-300 rounded-full p-2 hover:bg-fuchsia-400 hover:text-black hover:scale-[1.2]">
+                <Link href="https://wa.link/j43qko" target="_blank" className="text-[18px] border border-cyan-300 rounded-full p-2 hover:bg-fuchsia-400 hover:text-black hover:scale-[1.2]">
+                    <FaWhatsapp />
+                </Link>
+
+                <Link href="mailto:riteshsoni35468@gmail.com" className="text-[18px] border border-cyan-300 rounded-full p-2 hover:bg-fuchsia-400 hover:text-black hover:scale-[1.2]">
                     <MdEmail />
                 </Link>
             </div>

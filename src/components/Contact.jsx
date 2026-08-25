@@ -1,4 +1,4 @@
-import React from 'react'
+"use client"
 import { FaPhoneAlt } from 'react-icons/fa'
 import { IoLocation } from 'react-icons/io5'
 import { MdEmail, MdEventAvailable } from 'react-icons/md'
@@ -24,9 +24,30 @@ function Contact() {
 
         <div className='w-full rounded-[10px] border border-cyan-200/20 bg-[#01041a] p-3 sm:p-4 lg:p-5 shadow-[0_0_30px_rgba(34,211,238,0.05)] transition-all duration-300 hover:border-cyan-400/40]'>
             <form 
-                action=""
+                action="https://api.web3forms.com/submit" 
+                method="POST"
+                onSubmit={async (e) => {
+                    const form = e.currentTarget;
+                    const formData = new FormData(form);
+
+                    const response = await fetch(
+                        "https://api.web3forms.com/submit",
+                        {
+                            method: "POST",
+                            body: formData,
+                        }
+                    );
+
+                    const result = await response.json();
+
+                    if (result.success) {
+                        form.reset();
+                    }
+                }}
                 className='flex flex-col gap-2'
             >
+                <input type="hidden" name="access_key" value="5abad0b2-b185-42fe-a6c3-493532231ab9"></input>
+
                 <div className='flex gap-2 w-full'>
                     <input 
                         type="text"
@@ -49,6 +70,8 @@ function Contact() {
                     placeholder='Your Phone Number'
                     name='Phone'
                     className='border border-gray-600 rounded-[5px] px-3 py-1 text-gray-50 focus:border-cyan-600 outline-none placeholder:font-semibold'
+                    minLength={10}
+                    maxLength={10}
                     required 
                 />
 
